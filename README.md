@@ -16,6 +16,11 @@ PandasEye consists of a set of tools developed for action prediction and affect 
 
 ### Data preprocessing
 
+#### Sequencing for action prediction
+Parameters:
+* prefix 
+* suffix
+
 ### Feature engineering for action prediction papers
 
 ### Feature engineering for affect recognition
