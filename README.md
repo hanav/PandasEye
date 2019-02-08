@@ -17,7 +17,7 @@ PandasEye consists of a set of tools developed for action prediction and affect 
 ### Data preprocessing
 
 #### Sequencing for action prediction
-Scripts are in [this](_scripts_preprocessing/parseFeatures) folder.
+Scripts are in [parseFeatures](_scripts_preprocessing/parseFeatures).
 Parameters:
 * prefix 
 * suffix
