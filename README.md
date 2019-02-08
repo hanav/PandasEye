@@ -1,1 +1,3 @@
 # PandasEye
+
+## Project structure
