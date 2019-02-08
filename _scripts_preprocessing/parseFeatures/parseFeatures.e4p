@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-4.6.dtd">
+<!-- eric4 project file for project parseFeatures -->
+<!-- Saved: 2015-01-13, 17:47:01 -->
+<!-- Copyright (C) 2015 Hana Vrzakova, vrzakova.hana@gmail.com -->
+<Project version="4.6">
+  <Language></Language>
+  <ProgLanguage mixed="0">Python</ProgLanguage>
+  <ProjectType>Console</ProjectType>
+  <Description></Description>
+  <Version>0.1</Version>
+  <Author>Hana Vrzakova</Author>
+  <Email>vrzakova.hana@gmail.com</Email>
+  <Sources>
+    <Source>__init__.py</Source>
+    <Source>parserConfig.xml</Source>
+    <Source>main.py</Source>
+    <Source>pupillaryResponse.py</Source>
+    <Source>record.py</Source>
+    <Source>recordPath.py</Source>
+    <Source>xmlReader.py</Source>
+    <Source>aoi.py</Source>
+    <Source>direction.py</Source>
+    <Source>rawData.py</Source>
+    <Source>saveOutput.py</Source>
+    <Source>features.py</Source>
+    <Source>signalAnalysis.py</Source>
+    <Source>pupilSequences.py</Source>
+    <Source>records.py</Source>
+    <Source>parserDwellTime.xml</Source>
+    <Source>parserMouse.xml</Source>
+    <Source>mess.py</Source>
+    <Source>fixationDuration.py</Source>
+    <Source>fixationDistance.py</Source>
+    <Source>saccadeDuration.py</Source>
+    <Source>saccadeDirection.py</Source>
+    <Source>saccadeVelocity.py</Source>
+    <Source>rawSignal.py</Source>
+    <Source>saccadeAcceleration.py</Source>
+    <Source>aoiFeatures.py</Source>
+    <Source>parserMouseAbsolute.xml</Source>
+  </Sources>
+  <Forms>
+  </Forms>
+  <Translations>
+  </Translations>
+  <Resources>
+  </Resources>
+  <Interfaces>
+  </Interfaces>
+  <Others>
+    <Other>mo5.bat</Other>
+    <Other>parserMouseAbsolute.xml</Other>
+    <Other>batch_umap.bat</Other>
+  </Others>
+  <MainScript>main.py</MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES" />
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES" />
+    <FiletypeAssociation pattern="*.py" type="SOURCES" />
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES" />
+  </FiletypeAssociations>
+  <Documentation>
+    <DocumentationParams>
+      <dict>
+        <key>
+          <string>ERIC4DOC</string>
+        </key>
+        <value>
+          <dict>
+            <key>
+              <string>ignoreFilePatterns</string>
+            </key>
+            <value>
+              <list>
+                <unicode></unicode>
+              </list>
+            </value>
+            <key>
+              <string>outputDirectory</string>
+            </key>
+            <value>
+              <unicode>D:\FIT_python</unicode>
+            </value>
+            <key>
+              <string>qtHelpEnabled</string>
+            </key>
+            <value>
+              <bool>False</bool>
+            </value>
+            <key>
+              <string>sourceExtensions</string>
+            </key>
+            <value>
+              <list>
+                <unicode></unicode>
+              </list>
+            </value>
+          </dict>
+        </value>
+      </dict>
+    </DocumentationParams>
+  </Documentation>
+</Project>
