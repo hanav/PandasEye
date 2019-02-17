@@ -1,0 +1,149 @@
+<root>
+<aoiPath>..\project_data\gaze_augmented\AOI_coords.txt</aoiPath>
+
+<player>
+    <cmdPath>..\project_data\gaze_augmented\AjayaCMD.txt</cmdPath>
+    <gzdPath>..\project_data\gaze_augmented\AjayaGZD.txt</gzdPath>
+    <fixPath>' '</fixPath>
+    <evdPath>..\project_data\gaze_augmented\AjayaEVD.txt</evdPath>
+    <elanPath>' '</elanPath>
+    <directionsPath>..\project_data\gaze_augmented\AjayaA.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\AjayaB.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\AjayaC.txt</directionsPath>
+    <outputPath>..\project_data\</outputPath>
+</player>
+
+
+<player>
+    <cmdPath>..\project_data\gaze_augmented\AndresCMD.txt</cmdPath>
+    <gzdPath>..\project_data\gaze_augmented\AndresGZD.txt</gzdPath>
+    <fixPath>' '</fixPath>
+    <evdPath>..\project_data\gaze_augmented\AndresEVD.txt</evdPath>
+    <elanPath>' '</elanPath>
+    <directionsPath>..\project_data\gaze_augmented\AndresA.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\AndresB.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\AndresC.txt</directionsPath>
+    <outputPath>..\project_data\</outputPath>
+</player>
+
+<player>
+    <cmdPath>..\project_data\gaze_augmented\AnnaCMD.txt</cmdPath>
+    <gzdPath>..\project_data\gaze_augmented\AnnaGZD.txt</gzdPath>
+    <fixPath>' '</fixPath>
+    <evdPath>..\project_data\gaze_augmented\AnnaEVD.txt</evdPath>
+    <elanPath>' '</elanPath>
+    <directionsPath>..\project_data\gaze_augmented\AnnaA.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\AnnaB.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\AnnaC.txt</directionsPath>
+    <outputPath>..\project_data\</outputPath>
+</player>
+
+<player>
+    <cmdPath>..\project_data\gaze_augmented\AnthonyCMD.txt</cmdPath>
+    <gzdPath>..\project_data\gaze_augmented\AnthonyGZD.txt</gzdPath>
+    <fixPath>' '</fixPath>
+    <evdPath>..\project_data\gaze_augmented\AnthonyEVD.txt</evdPath>
+    <elanPath>' '</elanPath>
+    <directionsPath>..\project_data\gaze_augmented\AnthonyA.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\AnthonyB.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\AnthonyC.txt</directionsPath>
+    <outputPath>..\project_data\</outputPath>
+</player>
+
+<player>
+    <cmdPath>..\project_data\gaze_augmented\CarolinaCMD.txt</cmdPath>
+    <gzdPath>..\project_data\gaze_augmented\CarolinaGZD.txt</gzdPath>
+    <fixPath>' '</fixPath>
+    <evdPath>..\project_data\gaze_augmented\CarolinaEVD.txt</evdPath>
+    <elanPath>' '</elanPath>
+    <directionsPath>..\project_data\gaze_augmented\CarolinaA.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\CarolinaB.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\CarolinaC.txt</directionsPath>
+    <outputPath>..\project_data\</outputPath>
+</player>
+
+<player>
+    <cmdPath>..\project_data\gaze_augmented\JaumeCMD.txt</cmdPath>
+    <gzdPath>..\project_data\gaze_augmented\JaumeGZD.txt</gzdPath>
+    <fixPath>' '</fixPath>
+    <evdPath>..\project_data\gaze_augmented\JaumeEVD.txt</evdPath>
+    <elanPath>' '</elanPath>
+    <directionsPath>..\project_data\gaze_augmented\JaumeA.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\JaumeB.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\JaumeC.txt</directionsPath>
+    <outputPath>..\project_data\</outputPath>
+</player>
+
+<player>
+    <cmdPath>..\project_data\gaze_augmented\LauraCMD.txt</cmdPath>
+    <gzdPath>..\project_data\gaze_augmented\LauraGZD.txt</gzdPath>
+    <fixPath>' '</fixPath>
+    <evdPath>..\project_data\gaze_augmented\LauraEVD.txt</evdPath>
+    <elanPath>' '</elanPath>
+    <directionsPath>..\project_data\gaze_augmented\LauraA.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\LauraB.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\LauraC.txt</directionsPath>
+    <outputPath>..\project_data\</outputPath>
+</player>
+
+<player>
+    <cmdPath>..\project_data\gaze_augmented\MarcCMD.txt</cmdPath>
+    <gzdPath>..\project_data\gaze_augmented\MarcGZD.txt</gzdPath>
+    <fixPath>' '</fixPath>
+    <evdPath>..\project_data\gaze_augmented\MarcEVD.txt</evdPath>
+    <elanPath>' '</elanPath>
+    <directionsPath>..\project_data\gaze_augmented\MarcA.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\MarcB.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\MarcC.txt</directionsPath>
+    <outputPath>..\project_data\</outputPath>
+</player>
+
+<player>
+    <cmdPath>..\project_data\gaze_augmented\MyriamCMD.txt</cmdPath>
+    <gzdPath>..\project_data\gaze_augmented\MyriamGZD.txt</gzdPath>
+    <fixPath>' '</fixPath>
+    <evdPath>..\project_data\gaze_augmented\MyriamEVD.txt</evdPath>
+    <elanPath>' '</elanPath>
+    <directionsPath>..\project_data\gaze_augmented\MyriamA.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\MyriamB.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\MyriamC.txt</directionsPath>
+    <outputPath>..\project_data\</outputPath>
+</player>
+
+<player>
+    <cmdPath>..\project_data\gaze_augmented\NikoCMD.txt</cmdPath>
+    <gzdPath>..\project_data\gaze_augmented\NikoGZD.txt</gzdPath>
+    <fixPath>' '</fixPath>
+    <evdPath>..\project_data\gaze_augmented\NikoEVD.txt</evdPath>
+    <elanPath>' '</elanPath>
+    <directionsPath>..\project_data\gaze_augmented\NikoA.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\NikoB.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\NikoC.txt</directionsPath>
+    <outputPath>..\project_data\</outputPath>
+</player>
+
+<player>
+    <cmdPath>..\project_data\gaze_augmented\SeppoCMD.txt</cmdPath>
+    <gzdPath>..\project_data\gaze_augmented\SeppoGZD.txt</gzdPath>
+    <fixPath>' '</fixPath>
+    <evdPath>..\project_data\gaze_augmented\SeppoEVD.txt</evdPath>
+    <elanPath>' '</elanPath>
+    <directionsPath>..\project_data\gaze_augmented\SeppoA.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\SeppoB.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\SeppoC.txt</directionsPath>
+    <outputPath>..\project_data\</outputPath>
+</player>
+
+<player>
+    <cmdPath>..\project_data\gaze_augmented\VictorCMD.txt</cmdPath>
+    <gzdPath>..\project_data\gaze_augmented\VictorGZD.txt</gzdPath>
+    <fixPath>' '</fixPath>
+    <evdPath>..\project_data\gaze_augmented\VictorEVD.txt</evdPath>
+    <elanPath>' '</elanPath>
+    <directionsPath>..\project_data\gaze_augmented\VictorA.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\VictorB.txt</directionsPath>
+    <directionsPath>..\project_data\gaze_augmented\VictorC.txt</directionsPath>
+    <outputPath>..\project_data\</outputPath>
+</player>
+
+</root>
