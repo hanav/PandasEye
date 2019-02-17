@@ -2,8 +2,6 @@
 
 PandasEye consists of a set of tools developed for action prediction and affect recognition. 
 
-## Getting started
-
 ## Built with
 * Python 2.7
 * Pandas 
@@ -12,43 +10,58 @@ PandasEye consists of a set of tools developed for action prediction and affect 
 * Scikit-learn
 * Imblearn
 
-## Prediction pipeline
+## FeatureExtraction
+Scripts contain methods employed in sequencing eye-tracking data in 8Puzzle (P1,P2,P3).
+ExampleData provides anonymized raw eye-tracking and event data from the GazeAugmented condition.
+Parameters prefix and suffix defines the start and the end of the sequence with respect to an action (mouse click).
 
-#### Sequencing for action prediction
-Scripts are in [parseFeatures](_scripts_preprocessing/parseFeatures).
+| Inputs | Description |
+| ---- | -----|
+| AOI_codes.csv | Coordinates of AOIs  in 8Puzzles. |
+| *_events.csv | Timestamps of mouse clicks. |
+| *_PX.txt | Participant's combined eye-tracking data.|
+| prefix | Start of the sequence (a number of fixations).|
+| suffix | End of the sequence (a number of fixations).|
 
-| Parameters    | Description   | Example  |
-| ------------- |-------------|-----|
-| prefix        | right-aligned | 2 (2 fixations prior to the action) |
-| suffix        | centered      | 2 (1 fixation after the action) |
+|Output| Description|
+| --- | --- |
+| Results | Folder automatically created in the FeatureExtraction. |
+| features_x_y.csv| Output feature set. (x = prefix, y = suffix). |
 
 ### Example run
-
-python main_new_featureExtraction_WTP.py
-
-
-### Feature engineering for action prediction papers
-
-### Feature engineering for affect recognition
-
-### Data preprocessing
-
-* 
-# - feature scaling
-# - imputing missing values
-# - splitting to a training and testing set (stratified shuffling)
-# - splitting to a training and testing set (person specified)
-# - feature selection (percentile)
-# - downsampling the majority class
-# - upsampling the minority class
+python main_new_featureExtraction.py
 
 
-### Machine learning experiments
+## PredictionPipeline
+Scripts comprises three steps (preprocessing, feature engineering, and machine
+learning experiments) in the prediction pipeline, employed in P5. Since raw data
+are proprietary, only the resulting and anonymized feature set is provided to run 
+an example machine learning process. 
 
-### Outcome measures
-kFold crossvalidation and leaveOnePersonOut. - for each fold. Two last lines contains mean 
-and standard deviation of following outcome measures. 
-Each measure is calculated for training and testing folds.
+### 3_ml_classify_loocv_longterm_RF.py
+| Inputs | Description |
+| ---- | -----|
+| -i ExampleData/*.csv | Example feature set with labels. |
+| -o  Results| Directory to save the prediction outputs. |
+| -m Message | Title of the experiment. |
+| - d Tag | ID of the experiment, propagated to the output files.|
+
+| Output | Description |
+| ---- | -----|
+| Tag_Arousal_YYYYMMDD_HHMM| Folder with performence outcomes of arousal recognition.|
+| Tag_Valence_YYYYMMDD_HHMM| Folder with performence outcomes of arousal recognition.|
+| ALL_* | Results achieved using the entire feature set.|
+| GAZE_* | Results achieved using eye-tracking features.|
+| GSR_* | Results received using GSR features.|
+|TM_* | Results received using TouchMouse features.|
+|*\_stratifiedkfold\_| Performance received during kFold crossvalidation.|
+|*\_loocv\_| Performance received during leave-one-person-out crossvalidation. |
+| \_results| Output file with train and test performance. |
+| \_importance | Feature importance estimated by Random Forest.|
+
+### Performance metrics
+Following metrics are computed in each iteration of kFold crossvalidation and leaveOnePersonOut. Two last lines contains mean 
+and standard deviation. Each measure is calculated for training and testing folds.
 
 | Measure | Description|
 |-------------| --------------|
@@ -58,8 +71,8 @@ Each measure is calculated for training and testing folds.
 | [train/test]_positive_acc| Accuracy of positive class|
 | [train/test]_negative_acc|Accuracy of negative class|
 | [train/test]_f1 | F1-measure|
-| [train/test]_precision| |
-| [train/test]_recall| |
+| [train/test]_precision| Precision|
+| [train/test]_recall| Recall|
 |no_rows| Number of rows|
 |no_features| Number of features|
 |no_testingSamples| Number of samples in the testing fold|
@@ -83,6 +96,3 @@ python PandasEye/PredictionPipeline/3_ml_classify_loocv_longterm_RF.py
 2. Fast and Comprehensive Extension to Intention Prediction from Gaze. In Interacting with Smart Objects, Intelligent User Interfaces(IUI '13). ACM, 2013
 3. Vrzakova, H. and Bednarik, R. Quiet Eye Affects Action Detection from Gaze more than Context Length In Proceedings of User Modeling, Adaptation and Personalization (UMAP). Springer, 2015
 4. Vrzakova, H., Begel, A., Mehtatalo, L., and Bednarik, R.: Affect Recognition in Code Review:An in-situ biometric study of reviewer’s affect. In revision in Journal of Systems and Software, 2019
-
-## Acknowledgments
-Dedicated to my feline friend Ofelia who rolled over the keyboard many times and erased my work.

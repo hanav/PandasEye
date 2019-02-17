@@ -5,7 +5,6 @@
 import numpy as np
 import pandas as pd
 
-from recordPath import RecordPath
 from rawData import RawData
 from mist.aoi import Aoi
 from pupildilations.pupillaryResponse import PupillaryResponse
